@@ -1,0 +1,35 @@
+﻿---
+BasedOnStyle: 'LLVM'
+AlignConsecutiveAssignments: 'AcrossEmptyLinesAndComments'
+AlignConsecutiveMacros: 'AcrossEmptyLinesAndComments'
+BinPackArguments: 'true'
+BinPackParameters: 'BinPack'
+BinPackLongBracedList: 'true'
+BreakBeforeBraces: Custom
+BracedInitializerIndentWidth: 4
+BraceWrapping:
+    AfterCaseLabel: 'true'
+    AfterControlStatement: 'Always'
+    AfterFunction: 'true'
+    AfterStruct: 'true'
+    AfterUnion: 'true'
+    BeforeElse: 'true'
+    BeforeStructInitialization: 'true'
+ContinuationIndentWidth: 4
+ColumnLimit: 120
+IncludeBlocks: 'Regroup'
+IndentWidth: 4
+InsertBraces: 'true'
+InsertNewlineAtEOF: 'true'
+Language: Cpp
+LineEnding: 'LF'
+PackConstructorInitializers: 'BinPack'
+PointerAlignment: 'Right'
+QualifierAlignment: 'Left'
+ReferenceAlignment: 'Right'
+ReflowComments: 'Always'
+SortIncludes: 'CaseSensitive'
+SpaceBeforeAssignmentOperators: 'true'
+UseTab: Never
+
+...
